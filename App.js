@@ -145,7 +145,7 @@ Ext.define('CustomApp', {
 		var me = this;
 		console.log('in _createGrid');
 //		me.portfolioGrid = Ext.create('Rally.ui.grid.TreeGrid', {
-		me.portfolioGrid = Ext.create('Rally.ui.grid.Grid', {    // Not working with TreeGrid so using Grid for now
+		me.portfolioGrid = Ext.create('Rally.ui.grid.Grid', {    // Not working with TreeGrid so using Grid for now 
 			store: myPortfolioStore,
 			columnCfgs: [         // Columns to display; must be the same names specified in the fetch: above in the wsapi data store
 				'FormattedID', 'Name'
